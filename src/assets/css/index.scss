@@ -1,0 +1,37 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+html,
+body .app {
+  color: #333333;
+  font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
+  background-color: $background-color;
+}
+
+
+.van-button--primary{
+  background:$theme-color
+}
+.submit-btn{
+  width:90%;
+  height:44px;
+  border-radius: 5px;
+  margin:0 auto;
+  display:block;
+}
+.flex{
+  display:flex;
+  &.space-between{
+    justify-content: space-between;
+  }
+}
+.page-container {
+  height: 100vh;
+  box-sizing: border-box;
+  &.gray-bg{
+    background: $gray-background-color;
+  }
+  .page-warpper {
+    padding:44px 12px 12px 12px;
+  }
+}
